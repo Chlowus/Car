@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(#5698EF,#2C73EF,  #324E83);
+    height: 97vh;
+}
+
+* {
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black !important;
+    border-radius: 15%;
+}
+
+ul li{
+    list-style: none;
+    padding: 1rem 5rem;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+}
+
+hr {
+    border: 1px dotted;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+td,th {
+    border-bottom: 1px solid;
+}
+
+td{
+    padding: 20px;
+}
+
+h1 {
+    text-align:center;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 15%;
+    transition: 1.5s;
+}
+
+.card img:hover {
+    scale: 1.4;
+}
